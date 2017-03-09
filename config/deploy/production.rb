@@ -17,9 +17,9 @@
 # property set. Specify the username and a domain or IP for the server.
 # Don't use `:all`, it's a meta role.
 
- role :app, %w{sputnik_deploy@185.146.170.204}, my_property: :my_value
- role :web, %w{sputnik_deploy@185.146.170.204}, other_property: :other_value
- role :db,  %w{sputnik_deploy@185.146.170.204}
+ role :app, %w{sputnik_deploy@185.189.13.65}, my_property: :my_value
+ role :web, %w{sputnik_deploy@185.189.13.65}, other_property: :other_value
+ role :db,  %w{sputnik_deploy@185.189.13.65}
 
 
 
